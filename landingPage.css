@@ -1,7 +1,41 @@
-i {
-    font-size: 300px;
-}
-
 body {
     text-align: center;
+    font-family: "Winky Rough", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: bisque;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #f39c12;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-weight: 500;
+}
+
+a:hover {
+    background-color: yellow;
+    font-size: 18px;
+  }
