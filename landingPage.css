@@ -39,3 +39,8 @@ a:hover {
     background-color: yellow;
     font-size: 18px;
   }
+
+img {
+    height: 800px;
+    width: 800px;
+}
