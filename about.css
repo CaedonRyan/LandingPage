@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f5f1ea;
+    color: #3e2f1c;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #c49a6c;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .mug {
+    font-size: 5rem;
+    transform: rotate(360deg);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .section h2 {
+    color: #7b4f2d;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #8c7360;
+    padding: 2rem 1rem;
+  }
