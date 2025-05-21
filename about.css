@@ -22,26 +22,6 @@ body {
     font-size: 1.2rem;
   }
   
-  main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-  }
-  
-  .mug {
-    font-size: 5rem;
-    transform: rotate(360deg);
-    text-align: center;
-    margin-bottom: 1rem;
-    animation-name: bounce;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-  }
-  
   .section {
     margin-bottom: 2rem;
   }
