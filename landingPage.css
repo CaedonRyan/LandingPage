@@ -38,6 +38,18 @@ header {
 a:hover {
     background-color: yellow;
     font-size: 18px;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
 img {
